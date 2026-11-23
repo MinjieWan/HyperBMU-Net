@@ -1,6 +1,6 @@
-# HyperBME-Net
+# HyperBMU-Net
 
-Official PyTorch implementation of HyperBME-Net.
+Official PyTorch implementation of HyperBMU-Net.
 
 ---
 
@@ -50,9 +50,9 @@ datasets/
 ## 📁 Project Structure
 
 ```
-HyperBME-Net/
+HyperBMU-Net/
 ├── checkpoints/
-│   └── HyperBME.pth
+│   └── HyperBMU.pth
 ├── architecture/        # network architecture
 ├── datasets/            # dataset structure
 ├── exp/                 # experiment outputs and checkpoints
@@ -111,7 +111,7 @@ Please download the pre-trained weight manually and place it in the following di
 
 ```
 checkpoints/
-└── HyperBME.pth
+└── HyperBMU.pth
 ```
 
 - Pre-trained model:https://pan.baidu.com/s/1uKuvb7nLneJdJBRa_2seFQ?pwd=s36j 
@@ -119,7 +119,7 @@ checkpoints/
 When testing, please set `--resume_ckpt_path` to the corresponding weight path:
 
 ```
---resume_ckpt_path ./checkpoints/HyperBME.pth
+--resume_ckpt_path ./checkpoints/HyperBMU.pth
 ```
 ---
 ## ⚠️ Notes
