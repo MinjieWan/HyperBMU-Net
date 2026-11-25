@@ -567,7 +567,7 @@ from .ddpm_denoising_simple_arch import simple_denoise
 from .ddpm import DSM,DDPM_Func
 from einops.layers.torch import Rearrange
 
-class HyperBME(nn.Module):
+class HyperBMU(nn.Module):
     def __init__(self, opt):
         super().__init__()
         self.opt = opt
